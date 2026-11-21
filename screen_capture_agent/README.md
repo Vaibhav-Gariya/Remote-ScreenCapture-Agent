@@ -56,7 +56,7 @@ If you want a custom key, change it in .env and use the same value for both serv
 
 
 6. Verify the server URL
-In main.py, the agent is configured with: SERVER_URL = "https://192.168.17.38:8443"
+In main.py, the agent is configured with: SERVER_URL = "https://0.0.0.0:8443"
 
 Update this value if your server runs on a different host, IP, or port.
 
@@ -66,7 +66,7 @@ The server app is main.py.
 From the repository root: python -m uvicorn server.main:app --host 0.0.0.0 --port 8443 --reload
 
 HTTPS note
-The agent expects HTTPS by default. If you want proper HTTPS, run uvicorn with certificate files: python -m uvicorn server.main:app --host 192.168.32.1 --port 8443 --ssl-keyfile certs/server.key --ssl-certfile certs/server.crt --reload
+The agent expects HTTPS by default. If you want proper HTTPS, run uvicorn with certificate files: python -m uvicorn server.main:app --host 0.0.0.0 --port 8443 --ssl-keyfile certs/server.key --ssl-certfile certs/server.crt --reload
 
 If you do not have TLS set up, you can also run the server on HTTP, but then:
 -change SERVER_URL in main.py to http://<server-ip>:<port>
@@ -110,5 +110,3 @@ If server fails to start: ensure .env exists and AGENT_API_KEY is set
 If agent fails to register: verify SERVER_URL and that the server is running
 If screenshots are missing: check screenshots
 If using HTTPS with self-signed certs: verify_ssl=False is already set in the agent client
-
-https://chatgpt.com/share/6a6860e2-dc94-83ee-817e-dd486af989e8?ogimg=plain
