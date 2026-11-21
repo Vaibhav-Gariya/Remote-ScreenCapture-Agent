@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "supervisor.py", line 372, in <module>
+  File "supervisor.py", line 336, in main
+  File "supervisor.py", line 191, in monitor
+  File "supervisor.py", line 130, in start_agent
+  File "session_launcher.py", line 305, in launch_agent
+OSError: [WinError 1008] An attempt was made to reference a token that does not exist.

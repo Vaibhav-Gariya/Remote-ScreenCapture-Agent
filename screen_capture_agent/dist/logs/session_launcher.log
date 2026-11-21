@@ -1,0 +1,70 @@
+2026-08-31 00:29:11,509 INFO ================================
+2026-08-31 00:29:11,509 INFO System-D Supervisor starting
+2026-08-31 00:29:11,509 INFO Starting agent in active user session: C:\ProgramData\System-D\dist\System-D-Agent.exe
+2026-08-31 00:29:11,509 INFO Agent executable: C:\Users\gariy\Desktop\screen_capture_agent\dist\System-D-Agent.exe
+2026-08-31 00:29:11,509 INFO Active console session ID: 4
+2026-08-31 00:29:11,509 INFO Attempting to launch Agent in session 4
+2026-08-31 00:29:11,509 ERROR WTSQueryUserToken failed. Error: 1314
+2026-08-31 00:29:11,509 ERROR Supervisor crashed.
+Traceback (most recent call last):
+  File "supervisor.py", line 336, in main
+  File "supervisor.py", line 191, in monitor
+  File "supervisor.py", line 130, in start_agent
+  File "session_launcher.py", line 305, in launch_agent
+OSError: [WinError 1314] A required privilege is not held by the client.
+2026-08-31 00:29:11,509 INFO Supervisor stopping...
+2026-08-31 00:29:11,509 INFO System-D Supervisor stopped
+2026-08-31 00:33:31,102 INFO ================================
+2026-08-31 00:33:31,110 INFO System-D Supervisor starting
+2026-08-31 00:33:31,110 INFO Starting agent in active user session: C:\ProgramData\System-D\dist\System-D-Agent.exe
+2026-08-31 00:33:31,110 INFO Agent executable: C:\Users\gariy\Desktop\screen_capture_agent\dist\System-D-Agent.exe
+2026-08-31 00:33:31,110 INFO Active console session ID: 4
+2026-08-31 00:33:31,110 INFO Attempting to launch Agent in session 4
+2026-08-31 00:33:31,110 INFO User token obtained successfully for session 4
+2026-08-31 00:33:31,260 INFO Agent launched successfully.
+2026-08-31 00:33:31,260 INFO Agent PID: 3592
+2026-08-31 00:33:31,260 INFO Agent session ID: 4
+2026-08-31 00:33:31,260 INFO Agent started. PID=3592
+2026-08-31 00:44:10,932 INFO ================================
+2026-08-31 00:44:10,932 INFO System-D Supervisor starting
+2026-08-31 00:44:10,932 INFO Starting agent in active user session: C:\ProgramData\System-D\dist\System-D-Agent.exe
+2026-08-31 00:44:10,932 INFO Agent executable: C:\Users\gariy\Desktop\screen_capture_agent\dist\System-D-Agent.exe
+2026-08-31 00:44:10,932 INFO Active console session ID: 4
+2026-08-31 00:44:10,932 INFO Attempting to launch Agent in session 4
+2026-08-31 00:44:10,932 INFO User token obtained successfully for session 4
+2026-08-31 00:44:10,941 INFO Agent launched successfully.
+2026-08-31 00:44:10,941 INFO Agent PID: 23460
+2026-08-31 00:44:10,941 INFO Agent session ID: 4
+2026-08-31 00:44:10,941 INFO Agent started. PID=23460
+2026-08-31 00:46:06,971 WARNING Agent exited.
+2026-08-31 00:46:06,971 INFO Restarting agent...
+2026-08-31 00:46:07,505 WARNING Agent exited.
+2026-08-31 00:46:07,505 INFO Restarting agent...
+2026-08-31 00:46:11,972 INFO Starting agent in active user session: C:\ProgramData\System-D\dist\System-D-Agent.exe
+2026-08-31 00:46:11,972 INFO Agent executable: C:\Users\gariy\Desktop\screen_capture_agent\dist\System-D-Agent.exe
+2026-08-31 00:46:11,972 INFO Active console session ID: 5
+2026-08-31 00:46:11,972 INFO Attempting to launch Agent in session 5
+2026-08-31 00:46:11,972 ERROR WTSQueryUserToken failed. Error: 1008
+2026-08-31 00:46:11,972 ERROR Supervisor crashed.
+Traceback (most recent call last):
+  File "supervisor.py", line 336, in main
+  File "supervisor.py", line 191, in monitor
+  File "supervisor.py", line 130, in start_agent
+  File "session_launcher.py", line 305, in launch_agent
+OSError: [WinError 1008] An attempt was made to reference a token that does not exist.
+2026-08-31 00:46:11,972 INFO Supervisor stopping...
+2026-08-31 00:46:11,972 INFO System-D Supervisor stopped
+2026-08-31 00:46:12,506 INFO Starting agent in active user session: C:\ProgramData\System-D\dist\System-D-Agent.exe
+2026-08-31 00:46:12,506 INFO Agent executable: C:\Users\gariy\Desktop\screen_capture_agent\dist\System-D-Agent.exe
+2026-08-31 00:46:12,506 INFO Active console session ID: 5
+2026-08-31 00:46:12,506 INFO Attempting to launch Agent in session 5
+2026-08-31 00:46:12,506 ERROR WTSQueryUserToken failed. Error: 1008
+2026-08-31 00:46:12,506 ERROR Supervisor crashed.
+Traceback (most recent call last):
+  File "supervisor.py", line 336, in main
+  File "supervisor.py", line 191, in monitor
+  File "supervisor.py", line 130, in start_agent
+  File "session_launcher.py", line 305, in launch_agent
+OSError: [WinError 1008] An attempt was made to reference a token that does not exist.
+2026-08-31 00:46:12,506 INFO Supervisor stopping...
+2026-08-31 00:46:12,506 INFO System-D Supervisor stopped
